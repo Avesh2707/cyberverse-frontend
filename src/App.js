@@ -1,4 +1,5 @@
 import React from 'react';
+import Chatbot from './components/Chatbot';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/" element={<Navigate to="/dashboard" replace />} />
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
+        <Chatbot />
       </BrowserRouter>
     </AuthProvider>
   );
