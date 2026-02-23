@@ -7,6 +7,7 @@ import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Domains from './pages/Domains';
 import DomainDetail from './pages/DomainDetail';
+import Learn from './pages/Learn';
 import Practice from './pages/Practice';
 import Compete from './pages/Compete';
 import Leaderboard from './pages/Leaderboard';
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
           <Route path="/domains" element={<ProtectedRoute><Domains /></ProtectedRoute>} />
           <Route path="/domains/:slug" element={<ProtectedRoute><DomainDetail /></ProtectedRoute>} />
+          <Route path="/learn" element={<ProtectedRoute><Learn /></ProtectedRoute>} />
           <Route path="/practice" element={<ProtectedRoute><Practice /></ProtectedRoute>} />
           <Route path="/compete" element={<ProtectedRoute><Compete /></ProtectedRoute>} />
           <Route path="/leaderboard" element={<ProtectedRoute><Leaderboard /></ProtectedRoute>} />

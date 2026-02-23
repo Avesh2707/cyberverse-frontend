@@ -28,7 +28,7 @@ export default function Login() {
       <div style={{ width:'100%', maxWidth:'420px', padding:'0 20px', position:'relative', zIndex:2 }}>
         {/* Logo */}
         <div style={{ textAlign:'center', marginBottom:'40px' }}>
-          <h1 style={{ fontFamily:'var(--font-title)', fontSize:'32px', fontWeight:900, color:'var(--green)', textShadow:'0 0 30px var(--green-glow)', letterSpacing:'4px' }}>CYBER<span style={{color:'#555'}}>VERSE</span></h1>
+          <h1 style={{ fontFamily:'var(--font-title)', fontSize:'32px', fontWeight:900, color:'var(--green)', textShadow:'0 0 30px var(--green-glow)', letterSpacing:'4px' }}>OPEN<span style={{color:'#555'}}>LABS</span></h1>
           <p style={{ fontFamily:'var(--font-mono)', fontSize:'12px', color:'var(--text-dim)', marginTop:'8px', letterSpacing:'3px' }}>HACK. LEARN. DOMINATE.</p>
         </div>
 

@@ -10,6 +10,7 @@ export default function Navbar() {
       <ul className="nav-links">
         <li><NavLink to="/dashboard">Dashboard</NavLink></li>
         <li><NavLink to="/domains">Domains</NavLink></li>
+        <li><NavLink to="/learn">Learn</NavLink></li>
         <li><NavLink to="/practice">Practice</NavLink></li>
         <li><NavLink to="/compete">Compete</NavLink></li>
         <li><NavLink to="/leaderboard">Leaderboard</NavLink></li>
